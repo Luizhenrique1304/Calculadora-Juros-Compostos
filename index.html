@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Juros Compostos</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="background">
+    <canvas id="particles"></canvas>
+  </div>
+
+  <div class="container">
+    <h1>Calculadora de Juros Compostos</h1>
+    <div class="calculator">
+      <label>Valor Inicial (R$):</label>
+      <input type="number" id="principal" placeholder="Ex: 1000">
+
+      <label>Depósito Mensal (R$):</label>
+      <input type="number" id="contribution" placeholder="Ex: 200">
+
+      <label>Taxa de Juros Mensal (%):</label>
+      <input type="number" id="rate" placeholder="Ex: 1">
+
+      <label>Tempo (meses):</label>
+      <input type="number" id="time" placeholder="Ex: 12">
+
+      <button onclick="calculate()">Calcular</button>
+    </div>
+
+    <h2 id="result"></h2>
+    <canvas id="chart"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
