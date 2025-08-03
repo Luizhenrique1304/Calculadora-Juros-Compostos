@@ -34,7 +34,7 @@ Se estiver no GitHub e quiser baixar:
 - Clique em **Code** → **Download ZIP** e extraia em uma pasta no seu computador.
 - Ou, se tiver Git, clone com:
 - ```bash
-  git clone https://github.com/SEU_USUARIO/calculadora-juros-compostos.git
+  git clone https://github.com/Luizhenrique1304/Calculadora-Juros-Compostos.git
   ```
 
 ## Licença
